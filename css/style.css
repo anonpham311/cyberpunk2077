@@ -1,0 +1,99 @@
+body{background: url("/images/bg-home.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Saira', sans-serif;
+    text-align: justify;}
+
+aside{width: 190px;
+    float:left;
+    font-family: 'Righteous', cursive;
+    background: rgba(0, 0, 0, 0.5);}
+aside ul{list-style: none;
+        margin: 0;
+        padding: 0;}
+aside ul li {line-height: 40px;}            
+aside ul li a{color: #57c8e8;
+        text-decoration: none;
+        padding-left: 15px;
+        display: block;
+        text-transform: uppercase;
+        border: 1px solid #57c8e8;
+        font-weight: bold;}
+aside ul li a:hover{background: rgba(87, 201, 232, 0.5);
+                    color: #fff;}
+
+article{width: 580px;
+        float: right;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 5px 10px;
+        border: 1px solid #f8f200;
+        color: #fff;}
+article h1{color: #f8f200;
+        font-family: 'Righteous', cursive;}
+article h3{color: #57c8e8;
+        font-family: 'Righteous', cursive;}
+article a{color: #57c8e8;
+        font-weight: bold;}
+article ul {list-style: none;} /* Remove default bullets */
+article ul li::before {
+        content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+        color: #57c8e8; /* Change the color */
+        font-weight: bold; /* If you want it to be bold */
+        display: inline-block; /* Needed to add space between the bullet and the text */
+        width: 1em; /* Also needed for space (tweak if needed) */
+        margin-left: -1em; /* Also needed for space (tweak if needed) */
+        padding-bottom: 5px;}
+
+.hinh{float: right;
+        margin-right: 10px;
+        padding-top: 25px;
+        padding-left: 20px;}
+.hinh2{display: block;
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 5px;}
+
+footer{clear: both;
+        font-family: 'Saira', sans-serif;
+        font-style: italic;
+        font-weight: lighter;
+        color: #fff;
+        margin-left: 200px;
+        padding-top: 20px;
+        text-align: center;}
+
+.wrapper{width: 800px;
+        margin: 0 auto;}
+
+.data{width: 100%;}
+input{width: 90%;
+        height: 30px;
+        margin: 15px 10px;
+        font-size: 18px;
+        border: none;
+        border-bottom: 2px dashed #57c8e8;
+        color: #fff;
+        font-family: 'Righteous', cursive;
+        background: transparent;}
+.submit{width: 30%;
+        font-family: 'Saira', sans-serif;
+        font-weight: bold;
+        background: transparent;
+        color: #57c8e8;
+        border: 2px solid #57c8e8;
+        border-radius: 8px;
+        margin: 20px 50px;}
+.submit:hover{background: #57c8e8;
+                color: #fff;
+                border: none;}
+.reset{width: 30%;
+        font-family: 'Saira', sans-serif;
+        font-weight: bold;
+        color: rgb(160, 160, 160);
+        background: transparent;
+        border: 2px solid rgb(160, 160, 160);
+        border-radius: 8px;
+        margin: 20px 50px;}
+.reset:hover{background: rgb(160, 160, 160);
+                border: none;
+                color: #fff;}
